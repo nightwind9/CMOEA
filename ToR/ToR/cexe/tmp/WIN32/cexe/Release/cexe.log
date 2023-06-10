@@ -1,0 +1,47 @@
+﻿生成启动时间为 2019/9/24 16:28:31。
+     1>项目“D:\实验代码\ToR\CMOO_NEW\cexe\cexe.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinclude /I../libalg/include /I../libemo/include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"tmp/WIN32/cexe/Release\\" /Fd"tmp/WIN32/cexe/Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt exc\pexe.cpp
+         pexe.cpp
+     1>exc\pexe.cpp(102): warning C4018: “<”: 有符号/无符号不匹配
+     1>exc\pexe.cpp(142): warning C4018: “<”: 有符号/无符号不匹配
+     1>exc\pexe.cpp(27): warning C4101: “savefilename”: 未引用的局部变量
+     1>exc\pexe.cpp(26): warning C4101: “strategy”: 未引用的局部变量
+     1>D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(60): warning C4503: “std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint”: 超出修饰名的长度，名称被截断
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=az::mea::SECTION
+         ,            _Pr=std::less<std::string>
+         ,            _Alloc=std::allocator<std::pair<const std::string,az::mea::SECTION>>
+                 ]
+     1>D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(60): warning C4503: “std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at”: 超出修饰名的长度，名称被截断
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=az::mea::SECTION
+         ,            _Pr=std::less<std::string>
+         ,            _Alloc=std::allocator<std::pair<const std::string,az::mea::SECTION>>
+                 ]
+     1>D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(60): warning C4503: “std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint”: 超出修饰名的长度，名称被截断
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=az::mea::SECTION
+         ,            _Pr=std::less<std::string>
+         ,            _Alloc=std::allocator<std::pair<const std::string,az::mea::SECTION>>
+                 ]
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\cexe.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\cexe.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\cexe.lib" /MACHINE:X86 /SAFESEH tmp/WIN32/cexe/Release\AlgC.obj
+         tmp/WIN32/cexe/Release\Metric.obj
+         tmp/WIN32/cexe/Release\pexe.obj
+         "D:\实验代码\ToR\CMOO_NEW\libalg\lib\libalg.lib"
+         "D:\实验代码\ToR\CMOO_NEW\libemo\lib\libemo.lib"
+         正在生成代码
+         已完成代码的生成
+         cexe.vcxproj -> D:\实验代码\ToR\CMOO_NEW\cexe\bin\cexe.exe
+     1>已完成生成项目“D:\实验代码\ToR\CMOO_NEW\cexe\cexe.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.09
